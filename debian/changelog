@@ -1,0 +1,9 @@
+x11proto-gesture (0.1.0-1) unstable; urgency=low
+
+  * Initial version
+  * Update version for resolve upload problem
+  * Add GestureMaskNone in gestureconst.h
+  * Git: 165.213.180.234:slp/pkgs/xorg/proto/x11proto-gesture
+  * Tag: x11proto-gesture_0.1.0-1
+
+ -- Sung-Jin Park <sj76.park@samsung.com>  Mon, 03 Jan 2011 20:12:02 +0900

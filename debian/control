@@ -1,0 +1,23 @@
+Source: x11proto-gesture
+Section: x11
+Priority: optional
+Maintainer: Sung-Jin Park <sj76.park@samsung.com>, Sangjin Lee <lsj119@samsung.com>
+Uploaders: Sung-Jin Park <sj76.park@samsung.com>
+Build-Depends:  debhelper (>= 5),  automake,  xutils-dev (>= 1:7.3+4)
+Standards-Version: 3.8.3
+
+Package: x11proto-gesture-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, x11proto-core-dev
+#Breaks: libxi-dev (<< 2:1.2.99)
+Description: X11 Gesture extension wire protocol
+ This package provides development headers describing the wire protocol
+ for the Gesture extension, used to control all manner of options related
+ to gesture event handling.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ <URL:http://xorg.freedesktop.org>
+ <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+ .
+ This package is built from the X.org gestureproto proto module.
