@@ -3,7 +3,7 @@ Name:       x11proto-gesture
 Summary:    X.Org X11 Protocol gestureproto  
 Version: 0.1.0
 Release:    1  
-Group:      Development/System  
+Group:      Graphics/X Window System  
 License:    MIT  
 URL:        http://www.x.org  
 Source0:    %{name}-%{version}.tar.gz
