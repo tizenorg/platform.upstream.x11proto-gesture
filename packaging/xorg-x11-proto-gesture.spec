@@ -6,6 +6,7 @@ Group:    Development/System
 License:  MIT
 URL:      http://www.x.org
 Source0:  %{name}-%{version}.tar.gz
+Source1001: 	xorg-x11-proto-gesture.manifest
 Provides: gestureproto
 
 BuildRoot:  %{_tmppath}/%{name}-%{version}-build
@@ -28,6 +29,7 @@ This package is built from the X.org gestureproto proto module.
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 %build
 
@@ -49,6 +51,7 @@ rm -rf %{buildroot}
 rm -rf %{buildroot}
 
 %files
+%manifest %{name}.manifest
 %defattr(-,root,root,-)
 %{_includedir}/X11/extensions/*.h
 %{_datadir}/pkgconfig/*.pc
