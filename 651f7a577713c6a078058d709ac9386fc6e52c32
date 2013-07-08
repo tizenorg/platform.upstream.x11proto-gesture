@@ -1,0 +1,8 @@
+Change-Id: I651f7a577713c6a078058d709ac9386fc6e52c32
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:38:44 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4974
+Project: platform/upstream/x11proto-gesture
+Branch: refs/heads/tizen
