@@ -1,3 +1,5 @@
+%bcond_with x
+
 Name:     xorg-x11-proto-gesture
 Summary:  X.Org X11 Protocol gestureproto
 Version:  0.1.0
@@ -13,6 +15,10 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-build
 
 BuildRequires: pkgconfig
 BuildRequires:  pkgconfig(xorg-macros)
+
+%if !%{with x}
+ExclusiveArch:
+%endif
 
 %description
 Description: %{summary}
